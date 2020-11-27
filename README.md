@@ -27,10 +27,10 @@ data: 购物信息(string)(json)
 返回交易编号  
 ### finishOrder()  
 买家确认交易完成
-tradeID
+tradeID   
 // remerber use transform to change the owner in the app
 ### queryAhead()
 查询该交易的前驱交易
 tradeID
-返回上一次交易编号（或-1）
+返回上一次交易编号（或-1）   
 //配合queryTrade()使用可以查询一个商品的所有交易
